@@ -1,0 +1,23 @@
+{
+  "name": "isi-invoice-cli",
+  "version": "1.0.0",
+  "description": "CLI para crear proyectos con la plantilla ISI.INVOICE",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "isi-invoice-cli": "./index.mjs"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.14",
+    "chalk": "^5.3.0",
+    "commander": "^10.0.1",
+    "figlet": "^1.7.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6",
+    "ora": "^8.0.1",
+    "shelljs": "^0.8.5",
+    "simple-git": "^3.25.0"
+  },
+  "author": "Nick Russell",
+  "license": "ISC"
+}
