@@ -77,6 +77,14 @@ program
             },
         ]);
 
+        /**
+         * Object containing the user's answers to the prompts.
+         * @typedef {Object} Answers
+         * @property {string} repo - The URL of the remote repository.
+         * @property {string} isi_documento_sector - The document sector (ISI_DOCUMENTO_SECTOR).
+         * @property {string} isi_api_url - The URL of the API (ISI_API_URL).
+         * @property {string} app_env - The application environment (APP_ENV). Defaults to "local".
+         */
         const answers = await inquirer.prompt([
             {
                 type: "input",
